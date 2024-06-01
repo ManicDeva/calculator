@@ -1,0 +1,67 @@
+# Ignore Gradle build folder
+/build/
+/.gradle/
+
+# Ignore Gradle Wrapper files
+gradle-wrapper.jar
+.gradle/
+
+# Ignore IDE specific files (IntelliJ IDEA, Eclipse, NetBeans)
+.idea/
+/*.iml
+/.classpath
+/.project
+/.settings/
+/out/
+
+# Ignore Maven repository
+/.m2/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.swp
+*.swo
+
+# Ignore coverage reports
+/coverage/
+/*.lcov
+
+# Ignore specific file types
+*.class
+*.jar
+*.war
+*.ear
+*.dll
+*.so
+*.dylib
+
+# Ignore user-specific files
+/.vscode/
+*.bak
+*.tmp
+
+# Ignore build artifacts
+*.o
+*.a
+*.pyc
+*.pyo
+*.pyd
+*.pid
+*.gz
+*.zip
+*.tar
+*.rar
+
+# Ignore application specific files
+/*.env
+
+# Ignore distribution files
+/dist/
+/target/
+/out/
