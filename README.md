@@ -1,2 +1,2 @@
 # calculator
-calculator app for test CIC
+calculator app for test CICa
