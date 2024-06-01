@@ -21,7 +21,7 @@ stages {
     stage("Code coverage"){
         steps{
         sh "./gradlew test jacocoTestReport"
-        publishHtml (
+        publishHTML (
         target: [
         reportDir: 'build/reports/jacoco/test/html',
         reportFiles: 'index.html',
