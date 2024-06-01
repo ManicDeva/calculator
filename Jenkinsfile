@@ -40,6 +40,7 @@ stages {
             reportFiles: 'main.html',
             reportName: 'checkstyle Report'
             ]
+            )
         }
     }
 }
